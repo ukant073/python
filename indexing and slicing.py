@@ -1,0 +1,11 @@
+import numpy as np
+a = np.arange(10)
+b= np.arange(10)
+print(a)
+s = slice(2,7,2)
+print(a[s])
+print(a+b)
+print(a[2:6])
+c=a.reshape(5,2)
+print(c)
+print(c.flatten())

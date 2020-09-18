@@ -1,0 +1,10 @@
+import numpy as np
+a = np.array([[3,6,4],[2,8,1]])
+print("applying a min fn:\n")
+print(np.amin(a))
+print("\n")
+print("applying a max fn:\n")
+print(np.amax(a))
+print("\n")
+print("applying a median fn:\n")
+print(np.median(a))
